@@ -1,0 +1,28 @@
+.notfound {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.notfound__code {
+  font-family: var(--ff-display);
+  font-size: 6rem;
+  color: var(--paper-dark);
+  line-height: 1;
+  display: block;
+}
+
+.notfound h1 {
+  font-family: var(--ff-display);
+  font-size: 1.75rem;
+  color: var(--ink);
+}
+
+.notfound p {
+  color: var(--ink-muted);
+  margin-bottom: 8px;
+}
